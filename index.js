@@ -37,7 +37,7 @@ function getWalletByName (name) {
               let blockText = ''
               blockData.forEach(text => {
                 if(text === '00' || text === '0') return
-                blockText = blockText + utils.numberToLetters(text)
+                blockText = blockText + utils.dataToText(text)
               })
               if(blockText === name) { resolve(block.account) }
               reject(new Error('CANNOT_FIND_NAME'))
@@ -50,4 +50,8 @@ function getWalletByName (name) {
     })
 }
 
-module.exports = { nodeApi, getWalletByName }
+function createDataByName (name) {
+  return utils.textToData(name)
+}
+
+module.exports = { nodeApi, getWalletByName, createDataByName }

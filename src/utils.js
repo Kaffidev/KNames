@@ -8,7 +8,7 @@ function splitStringBySegmentLength(source, segmentLength) {
     return target;
 }
 
-function numberToLetters(num) {
+function dataToText(num) {
     const textArray = splitStringBySegmentLength(num, 2)
     let letters = ''
     textArray.forEach(number => {
@@ -19,7 +19,7 @@ function numberToLetters(num) {
     return letters
 }
 
-function textToNumbers(text) {
+function textToData(text) {
     const textArray = splitStringBySegmentLength(text, 1)
     let parsedText = ''
     textArray.forEach(letter => {
@@ -30,4 +30,4 @@ function textToNumbers(text) {
     return parsedText
 }
 
-module.exports = {textToNumbers, numberToLetters, splitStringBySegmentLength}
+module.exports = {textToData, dataToText, splitStringBySegmentLength}
