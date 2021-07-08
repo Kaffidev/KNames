@@ -20,7 +20,12 @@ KNames.getDataByName('myexclusivedomain') // Returns some numbers
 And send 5.(Some numbers here) bananos to KNames Wallet ``ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9``
 Cool right?
 
-## Restrictions
+## Browserify
+``To use with browsers, you can use browserify to build a JS file for browsers.``
+To install: npm i browserify --global
+To build: browserify index.js --standalone KNames > browser/index.js
+
+## Limitations
 #### You can only use .k domain at this time.
 #### You cant edit your name if u publish it.
 #### Only lower case letters can be used.
