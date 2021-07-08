@@ -12,7 +12,7 @@ function getWalletByName (name) {
 
       const data = JSON.stringify({
         action: 'account_history',
-        account: 'ban_1mb8wg98mq3xu9bfjr4oidoadf5ht8po8txsarj1bwwhw3f6rrw58kxmgutr',
+        account: 'ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9',
         count: 1,
         reverse: true
       })
@@ -51,5 +51,3 @@ function getWalletByName (name) {
 }
 
 module.exports = { nodeApi, getWalletByName }
-
-getWalletByName('kaffinpx.k').then(wallet => { console.log(wallet) })
