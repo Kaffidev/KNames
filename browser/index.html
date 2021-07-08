@@ -1,13 +1,34 @@
-<title> walletData extractor example </title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KNames walletData extractor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        
+    <script src="./bundle.js"></script>
 
-<script src="./bundle.js"></script>
+    <script>
+        function createName(walletName) {
+            document.getElementById('claimbtn').classList = "button is-info is-rounded is-loading"
+            document.getElementById('walletData').innerHTML = "walletData: " + KNames.createDataByName(walletName)
+        }
+    </script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        KNames
+      </h1>
+      <p class="subtitle">
+        walletData extractor for <strong>KNames</strong>!
+      </p>
+      <input class="input" name="walletName" type="text" maxlength="12" id="walletName"/>
+      <button class="button is-info is-rounded" onclick="createName(document.getElementById('walletName').value)" id="claimbtn"><div>Click to generate walletData</div></button>
+      <div class='label' id='walletData'></div>
+    </div>
+  </section>
+  </body>
+</html>
 
-<script>
-    function createName(walletName) {
-        document.getElementById('walletData').innerHTML = "walletData:" + KNames.createDataByName(walletName)
-    }
-</script>
-
-<input name="walletName" type="text" maxlength="12" id="walletName"/>
-<button class="createWallet" onclick="createName(document.getElementById('walletName').value)" id="claimbtn"><div>Click to generate walletData</div></button>
-<div id='walletData'></div>
