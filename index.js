@@ -1,5 +1,5 @@
 const https = require('https')
-const nodeApi = 'api-beta.banano.cc'
+let nodeApi = 'api-beta.banano.cc'
 
 const utils = require('./src/utils')
 
