@@ -1,0 +1,13 @@
+<title> walletData extractor example </title>
+
+<script src="./bundle.js"></script>
+
+<script>
+    function createName(walletName) {
+        document.getElementById('walletData').innerHTML = "walletData:" + KNames.createDataByName(walletName)
+    }
+</script>
+
+<input name="walletName" type="text" maxlength="12" id="walletName"/>
+<button class="createWallet" onclick="createName(document.getElementById('walletName').value)" id="claimbtn"><div>Click to generate walletData</div></button>
+<div id='walletData'></div>
