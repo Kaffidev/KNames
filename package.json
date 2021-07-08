@@ -1,7 +1,7 @@
 {
     "name": "knames",
     "version": "0.14",
-    "description": "Easy Banano on-chain decentralised domains!",
+    "description": "Easy Banano on-chain decentralised domains",
     "main": "index.js",
     "scripts": {
       "test": "node test"
