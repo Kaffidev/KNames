@@ -1,7 +1,7 @@
 # KNames
-Easy Banano potassium-rich on-chain decentralised domains!
+### Easy Banano potassium-rich on-chain decentralised domains!
 
-Do u think vanity urls are cool, ok so u can use KNames for no-effort cool vanity names.
+> Do u think vanity urls are cool, ok so u can use KNames for no-effort cool vanity names.
 
 ## Usage
 ```JS
@@ -19,3 +19,8 @@ KNames.getDataByName('myexclusivedomain') // Returns some numbers
 ```
 And send 5.(Some numbers here) bananos to KNames Wallet ``ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9``
 Cool right?
+
+## Restrictions
+> You can only use .k domain at this time.
+> You cant edit your name if u publish it.
+> Only lower case letters can be used.
