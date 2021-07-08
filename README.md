@@ -20,9 +20,9 @@ KNames.getDataByName('myexclusivedomain') // Returns some numbers
 And send 5.(Some numbers here) bananos to KNames Wallet `ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9`
 Cool right?
 
-## Browserify
-`To use with browsers, you can use browserify to build a JS file for browsers.`
-To install: `npm i browserify --global`
+** Browserify **
+`To use with browsers, you can use browserify to build a JS file for browsers.` \n
+To install: `npm i browserify --global` \n
 To build: `browserify index.js --standalone KNames > browser/index.js`
 
 ## Limitations
