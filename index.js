@@ -82,7 +82,7 @@ function getNameByWallet (wallet) {
             if (text === '00' || text === '0') return
             blockText = blockText + utils.dataToText(text)
           })
-          resolve(blockText)
+          resolve(blockText + '.k')
         })
         reject(new Error('CANNOT_FIND_NAME'))
       })
