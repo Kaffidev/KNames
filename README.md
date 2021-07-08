@@ -15,7 +15,7 @@ And you must get data from name using getDataByName function.
 
 ```js
 const KNames = require('KNames')
-KNames.getDataByName('myExclusiveDomain') // Returns some numbers
+KNames.getDataByName('myexclusivedomain') // Returns some numbers
 ```
 And send 5.(Some numbers here) bananos to KNames Wallet ``ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9``
 Cool right?
