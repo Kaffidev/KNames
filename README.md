@@ -21,6 +21,6 @@ And send 5.(Some numbers here) bananos to KNames Wallet ``ban_3name8cc7cci77jggy
 Cool right?
 
 ## Restrictions
-> You can only use .k domain at this time.
-> You cant edit your name if u publish it.
-> Only lower case letters can be used.
+#### You can only use .k domain at this time.
+#### You cant edit your name if u publish it.
+#### Only lower case letters can be used.
