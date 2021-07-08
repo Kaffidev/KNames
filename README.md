@@ -29,3 +29,9 @@ To use with browsers, you can use browserify to build a JS file for browsers.
 * You can only use .k domain at this time.
 * You cant edit your name if you publish it.
 * Only lower case letters can be used.
+
+## Api
+
+### getWalletByName(KName)
+#### Get ban_ address of KName
+##### Returns promise with wallet.
