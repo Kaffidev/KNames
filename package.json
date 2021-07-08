@@ -1,0 +1,20 @@
+{
+    "name": "knames",
+    "version": "0.14",
+    "description": "Easy Banano on-chain decentralised domains!",
+    "main": "index.js",
+    "scripts": {
+      "test": "node test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kaffidev/KNames.git"
+    },
+    "author": "Kaffidev (KaffinPX)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Kaffidev/KNames/issues"
+    },
+    "homepage": "https://github.com/Kaffidev/KNames#readme"
+  }
+  
