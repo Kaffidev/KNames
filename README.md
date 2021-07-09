@@ -34,16 +34,16 @@ To use with browsers, you can use browserify to build a JS file for browsers.
 
 ### getWalletByName(KName)
 #### Get ban_ address of KName
-#### Returns promise with wallet.
+Returns promise with wallet.
 
 ### getNameByWallet(Wallet)
 #### Get KName name address by ban_ wallet
-#### Returns promise with wallet.
+Returns promise with wallet.
 
 ### createDataByName(KName)
-#### Makes name banano-data.
-#### Returns data.
+#### Makes name to banano-data.
+Returns data.
 
 ### nodeApi
 #### RPC node to communicate.
-#### You can use like `nodeApi = address.com`.
+You can use like `nodeApi = address.com`.
