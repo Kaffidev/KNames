@@ -1,7 +1,7 @@
 # KNames 🙈
 ### Easy Banano potassium-rich on-chain decentralised domains!
 
-> Do you think vanity urls are cool, ok so you can use KNames for no-effort cool vanity names.
+> Do you think vanity urls are cool? Well then this is exactly what you're looking for! Use KNames for no-effort cool vanity names.
 
 ## Usage
 ```JS
@@ -9,7 +9,7 @@ const KNames = require('KNames')
 KNames.getWalletByName('kaffinpx.k').then(wallet => { console.log(wallet) }) // Returns ban_ wallet address
 ```
 
-## How-to
+## How-to-create
 To create a name in Banano blockchain, you must spend 5-6 bananos.
 And you must get data from name using getDataByName function.
 
