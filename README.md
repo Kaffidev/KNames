@@ -1,7 +1,7 @@
 # KNames 🙈
 ### Easy Banano potassium-rich on-chain decentralised domains!
 
-> Do you think vanity urls are cool, ok so you can use KNames for no-effort cool vanity names.
+> Do you think vanity urls are cool? Wish you could use them on the Banano Blockchain? Well then this is exactly what you're looking for! Use KNames for no-effort cool vanity names.
 
 ## Usage
 ```JS
@@ -9,7 +9,7 @@ const KNames = require('KNames')
 KNames.getWalletByName('kaffinpx.k').then(wallet => { console.log(wallet) }) // Returns ban_ wallet address
 ```
 
-## How-to
+## How-to-create
 To create a name in Banano blockchain, you must spend 5-6 bananos.
 And you must get data from name using getDataByName function.
 
@@ -17,12 +17,12 @@ And you must get data from name using getDataByName function.
 const KNames = require('KNames')
 console.log(KNames.getDataByName('myexclusivedomain')) // Returns some numbers and it will logged in console.
 ```
-And send 5.(Some numbers here) bananos to KNames Wallet `ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9`
+And send 5.(any numbers here, must be a float) to KNames Wallet `ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9`
 Cool right?
 
 ### Browserify
 To use with browsers, you can use browserify to build a JS file for browsers.
-> To install: `npm i browserify --global`
+> To install: `npm i browserify --global` <br>
 > To build: `browserify index.js --standalone KNames > browser/index.js`
 
 ### Limitations
