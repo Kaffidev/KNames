@@ -1,7 +1,7 @@
 # KNames 🙈
 ### Easy Banano potassium-rich on-chain decentralised domains!
 
-> Do you think vanity urls are cool? Well then this is exactly what you're looking for! Use KNames for no-effort cool vanity names.
+> Do you think vanity urls are cool? Wish you could use them on the Banano Blockchain? Well then this is exactly what you're looking for! Use KNames for no-effort cool vanity names.
 
 ## Usage
 ```JS
