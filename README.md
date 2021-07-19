@@ -22,7 +22,7 @@ Cool right?
 
 ### Browserify
 To use with browsers, you can use browserify to build a JS file for browsers.
-> To install: `npm i browserify --global`
+> To install: `npm i browserify --global` <br>
 > To build: `browserify index.js --standalone KNames > browser/index.js`
 
 ### Limitations
