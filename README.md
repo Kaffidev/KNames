@@ -17,7 +17,7 @@ And you must get data from name using getDataByName function.
 const KNames = require('KNames')
 console.log(KNames.getDataByName('myexclusivedomain')) // Returns some numbers and it will logged in console.
 ```
-And send 5.(Some numbers here) bananos to KNames Wallet `ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9`
+And send 5-6 bananos to KNames Wallet `ban_3name8cc7cci77jggyqi68us4pagun5qf3bg3u5pfxgwitc4femsh5sua3j9`
 Cool right?
 
 ### Browserify
